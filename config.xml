@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.ima624206" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>IMA</name>
+  <description>
+        An Ionic Framework and Cordova project.
+    </description>
+  <author email="you@example.com" href="http://example.com.com/">
+      Your Name Here
+  </author>
+  <platform name="ios">
+    <!-- images are determined by width and height. The following are supported -->
+    <splash src="res/screen/ios/SplashScreen_320X480.png" width="320" height="480"/>
+    <splash src="res/screen/ios/SplashScreen_640X960.png" width="640" height="960"/>
+    <splash src="res/screen/ios/SplashScreen_768X1024.png" width="768" height="1024"/>
+    <splash src="res/screen/ios/SplashScreen_1536X2048.png" width="1536" height="2048"/>
+    <splash src="res/screen/ios/SplashScreen_768X1024.png" width="1024" height="768"/>
+    <splash src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
+    <splash src="res/screen/ios/SplashScreen_640X1136.png" width="640" height="1136"/>
+    <splash src="res/screen/ios/SplashScreen_750X1334.png" width="750" height="1334"/>
+    <splash src="res/screen/ios/SplashScreen_1242X2208.png" width="1242" height="2208"/>
+    <splash src="res/screen/ios/SplashScreen_2208X1242.png" width="2208" height="1242"/>
+</platform>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="SplashScreenDelay" value="2000"/>
+  <preference name="FadeSplashScreenDuration" value="2000"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+</widget>
